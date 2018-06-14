@@ -1,0 +1,71 @@
+.card-title
+{
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  display: block;
+  font-weight:normal;
+  margin: 20px 0; 
+  text-align: center;
+  color: #795548;
+}
+
+.maincontent
+{
+	width:900px;
+	background-color: #FFFFFF;
+      padding: 15px;
+      box-shadow: 2px 1px 5px #888888;
+      border-radius: 3px;
+      margin-top: 5px;
+      alignment-baseline: central;
+}
+.maincontent:hover
+{
+  box-shadow: 4px 5px 5px #888888;
+
+}
+
+.card-menu-title
+{
+	text-align:left;
+	color: #795548;
+	font-family: 'Dancing Script', cursive;
+  	font-size: 30px;
+  	font-weight:normal;
+	width:800px;
+	border-bottom: 1px dotted black;	
+}
+
+.card-menu-details
+{
+	color: #795548;
+	font-family: 'Dancing Script', cursive;
+  	font-size: 30px;
+  	font-weight:normal;
+	width:800px;
+}
+
+input[type = submit]
+{
+  background: #5D4037;
+  color:#D7CCC8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding:10px;
+  width:210px;
+  border-radius:8px;
+}
+
+td,th
+{
+  font-family: 'Dancing Script', cursive;
+  font-size: 18px;
+  text-align: center;
+  color:#795548;
+}
+
+input[type = checkbox]
+{
+  height:20px;
+  width:20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

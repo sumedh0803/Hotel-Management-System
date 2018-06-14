@@ -1,0 +1,80 @@
+.content
+{
+  background:#FFFFFF;
+  width:30%;
+  margin:20px auto;
+  box-shadow: 2px 1px 5px #888888;
+  text-align: center;
+  border-radius:10px;
+  padding: 15px;
+  border-radius: 3px;
+  alignment-baseline: central;  
+}
+.content:hover
+{
+  box-shadow: 4px 5px 5px #888888;
+}
+.head
+{
+    font-family: 'Dancing Script', cursive;
+  	font-size: 35px;
+  	margin:20px auto;
+  	display: block;
+  	color:#795548;
+  	font-weight:normal; 
+  	text-align: center;
+    border-bottom:2px solid #795548;
+ }
+
+input 
+{
+    width: 200px;
+    height: 35px;
+    font-size: 16px;
+    border-radius: 2px;
+    margin-top: 10px;
+     border: none; 
+    border-bottom: 3px solid #D7CCC8;
+}
+
+input:focus
+{
+  border: none;
+  outline: none;
+  border-bottom: 3px solid #5D4037;
+}
+
+input[type=submit]
+{
+    background-color: #795548;
+    color: #FFF;
+    border: none;
+  outline: none;
+}
+
+input[type=submit]:hover 
+{
+  background-color: #5D4037;
+  color: #FFF;
+  border: none;
+  outline: none;
+  box-shadow: 3px 4px 4px #888888;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+td,th
+{
+ font-family: 'Dancing Script', cursive;
+  font-size: 18px;
+  text-align: center;
+  color:#795548;
+}
+
+#msg
+{
+  font-family: 'Dancing Script', cursive;
+	font-size:20px;
+	font-weight:bold;
+	color: #795548
+}
+

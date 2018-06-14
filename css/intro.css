@@ -1,0 +1,50 @@
+.intro
+{
+	font-family: 'Dancing Script', cursive;
+	font-size: 40px;
+	width: 100%;
+	border: 0px solid black;
+	margin-top: 5%;
+	font-weight: bolder;
+	padding: 2px;
+	border-left: 7px solid #FFC107;
+}
+.parallax1 {
+    /* The image used */
+    background-image: url("intro1.jpg");
+
+    /* Set a specific height */
+    min-height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 {
+    /* The image used */
+    background-image: url("intro2.jpeg");
+
+    /* Set a specific height */
+    min-height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax3 {
+    /* The image used */
+    background-image: url("intro3.jpg");
+
+    /* Set a specific height */
+    min-height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

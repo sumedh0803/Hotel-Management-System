@@ -1,0 +1,84 @@
+.debit
+		{
+			background-image: url("assets/debit.jpg");
+			width: 500px;
+			height: 250px;
+			border-radius: 5px;
+			border : 1px solid black ;
+			margin-left: 60px;
+			margin-top: 20px;
+		}
+		.card-data
+		{
+			position: relative;
+			top: 50px;
+			font-size: 20px;
+			width: 80%;
+			height: 15%;
+			margin-top: 10px;
+			margin-left:50px;
+		}
+		.card-date
+		{
+			position: relative;top: 50px;
+			width: 19%;
+			height: 15%;
+			font-size: 20px;
+			margin-top: 10px;
+			margin-right: 3px;
+			margin-left:50px;
+		}
+		.radio
+		{
+			padding: 40px;
+			width: 20px;
+			height: 20px;
+			font-size: 20px;
+		}
+		.card
+		{
+			background-color: #FFFFFF;
+			padding: 15px;
+			box-shadow: 2px 1px 5px #888888;
+			border-radius: 3px;
+			margin-top: 5px;
+			alignment-baseline: central;
+
+		}
+		input[type=button]
+		{
+    		background-color: #795548;
+    		color: #FFF;
+    		border: none;
+			outline: none;
+			width: 30%;
+			height: 8%; 
+			margin-top: 30px;
+		}
+		input[type=button]:hover {
+		    background-color: #5D4037;
+		    color: #FFF;
+		    border: none;
+			outline: none;
+			box-shadow: 3px 4px 4px #888888;
+			transition: box-shadow 0.2s ease-in-out;
+		}
+		.payment{
+			width: 50%;
+			text-align: left;
+		}
+		.card:hover
+		{
+			box-shadow: 4px 5px 5px #888888;
+		}
+		.card-heading
+		{
+			border-bottom: 2px solid #BDBDBD;
+			margin-top: 10px;
+			font-size: 30px;
+		}
+		.card-content
+		{
+			margin-top: 10px;
+			font-size: 20px;
+		}
